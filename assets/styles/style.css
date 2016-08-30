@@ -10,8 +10,54 @@ p {
   font-family: Helvetica;
 }
 
-.half {
+.clearfix {
+  clear: both;
 }
 
-.full{
+.align-center {
+  text-align: center;
+}
+
+aside {
+  float: left;
+  width: 200px;
+  border: 1px solid black;
+}
+
+main {
+  margin-left: 205px;
+}
+
+.first-nav {
+  float: right;
+}
+
+.banner {
+  height: 100px;
+  padding: 30px;
+  border: 1px solid black;
+  margin: 20px 0;
+}
+
+.col-left {
+  float: left;
+  width: 59%;
+  padding: 30px;
+  border: 1px solid black;
+  margin: 20px 0;
+}
+
+.col-right {
+  float: right;
+  width: 39%;
+  padding: 30px;
+  border: 1px solid black;
+  margin: 20px 0;
+}
+
+.col-full {
+  width: 100%;
+  padding: 30px;
+  border: 1px solid black;
+  margin: 20px 0;
 }
